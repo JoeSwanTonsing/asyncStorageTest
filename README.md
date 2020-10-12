@@ -11,9 +11,28 @@ Project includes the following function:
  
  ### Install the following:
 
+#### Axios - fetch data from api (optional)
 ```sh
 $ npm install axios
 ```
+#### OR
 ```sh
 $ yarn add axios
+```
 
+#### asyncStorage
+React-Native AsyncStorage is Deprecated. Use @react-native-community/async-storage instead.
+
+```sh
+yarn add @react-native-community/async-storage
+```
+
+Then install for coca pods
+
+```sh
+$ cd ios
+$ pods install
+```
+
+
+### Done! 😊
